@@ -50,4 +50,8 @@ public class BlackBox {
     static void callServiceCenter() {
         System.out.println("서비스 센터(1588-oooo) 로 연결합니다.");
     }
+
+    void appendModelName(String modelName) {
+        this.modelName += modelName;
+    }
 }
