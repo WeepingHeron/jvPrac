@@ -1,10 +1,10 @@
 package chap_07;
 
 public class BlackBoxRefurbish {
-    String modelName; // 모델명
+    public String modelName; // 모델명
     String resolution; // 해상도
     private int price; //가격
-    String color; //색상
+    protected String color; //색상
 
     public String getModelName() {
         return modelName;
