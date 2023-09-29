@@ -23,5 +23,7 @@ public class _09_GetterSetter {
 
         System.out.println("가격 : " + b2.getPrice() + "원");
         System.out.println("해상도 : " + b2.getResolution());
+
+        b2.price = -5000;
     }
 }
